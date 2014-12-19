@@ -38,6 +38,7 @@ Then all the required programs will all be compiled and installed automatically.
 You should prepare all the alignment files([BAM/SAM format](http://samtools.github.io/hts-specs/SAMv1.pdf)) before you get start to run this pipeline.
 
 The processes in HGPP:    
+
 1) Find the fosmid region   
 2) Markers error correction     
 3) Fosmid initial connection       
