@@ -14,10 +14,10 @@ __Last Version:__ 2014-06-18                                     <br/>
 
 This package contains: src, extensions, example and release directories
 
-For `src`: source code for HGPP  
-For `img`: Pipeline plot figure
-For `extensions`: Some basic programs for ASE and ASM analysis
-For `example`: Provide some examples for the main processes of HGPP
+For `src`: source code for HGPP     
+For `img`: Pipeline plot figure    
+For `extensions`: Some basic programs for ASE and ASM analysis     
+For `example`: Provide some examples for the main processes of HGPP        
 
 
 2. Install the software
