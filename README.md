@@ -1,12 +1,12 @@
-HGPP(Human Genome haplotype-resolved Program Package)
-=====================================================
+HGPP
+====
 
 1. Overview
 -----------
 
 ![pipeline plot](/img/pipeline.png)
 
-HGPP provides a pipeline for building haplotype resolved human genome by fosmid sequencing 
+HGPP(Human Genome haplotype-resolved Program Package) provides a pipeline for building haplotype resolved human genome by fosmid sequencing 
 
 __Contributors:__ Shujia Huang, Yuhui Sun, Xin Tong and Peng Sun <br/>
 __Institute   :__ BGI-Shenzhen                                   <br/>
