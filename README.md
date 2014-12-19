@@ -27,7 +27,6 @@ This package is quit easy to install in your directory, just use:
 
 ```
 make
-
 ```
 
 Then all the required programs will all be compiled and installed automatically. You can find the main part executable programs in `bin` and find the programs for ASE/ASM analysis in `extensions`, respectively 
