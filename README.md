@@ -4,7 +4,7 @@ HGPP(Human Genome haplotype-resolved Program Package)
 1. Overview
 -----------
 
-[pipeline plot](/img/pipeline.png)
+![pipeline plot](/img/pipeline.png)
 
 HGPP provides a pipeline for building haplotype resolved human genome by fosmid sequencing 
 
