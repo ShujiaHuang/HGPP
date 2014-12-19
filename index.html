@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Hgpp by ShujiaHuang</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Hgpp</h1>
+        <p class="header">Human Genome Haplotype resolved Program Package </p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/ShujiaHuang/HGPP/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/ShujiaHuang/HGPP/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/ShujiaHuang/HGPP">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/ShujiaHuang">ShujiaHuang</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="hgpp" class="anchor" href="#hgpp" aria-hidden="true"><span class="octicon octicon-link"></span></a>HGPP</h1>
+
+<h2>
+<a id="1-overview" class="anchor" href="#1-overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Overview</h2>
+
+<p><img src="/img/pipeline.png" alt="pipeline plot"></p>
+
+<p><strong>HGPP</strong>( Human Genome haplotype-resolved Program Package ) provides a pipeline for building haplotype resolved human genome by fosmid sequencing </p>
+
+<p><strong>Contributors:</strong> Shujia Huang, Yuhui Sun, Xin Tong and Peng Sun <br>
+<strong>Institute   :</strong> BGI-Shenzhen                                   <br>
+<strong>Last Version:</strong> 2014-06-18                                     <br></p>
+
+<p>This package contains: src, extensions, example and release directories</p>
+
+<p>For <code>src</code>: source code for HGPP<br>
+For <code>img</code>: Pipeline plot figure<br>
+For <code>extensions</code>: Some basic programs for ASE and ASM analysis<br>
+For <code>example</code>: Provide some examples for the main processes of HGPP        </p>
+
+<h2>
+<a id="2-install-the-software" class="anchor" href="#2-install-the-software" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Install the software</h2>
+
+<p>This package is quit easy to install in your directory, just use:</p>
+
+<pre><code>make
+</code></pre>
+
+<p>Then all the required programs will all be compiled and installed automatically. You can find the main part executable programs in <code>bin</code> and find the programs for ASE/ASM analysis in <code>extensions</code>, respectively </p>
+
+<h2>
+<a id="3-how-to-use-hgpp" class="anchor" href="#3-how-to-use-hgpp" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. How to use HGPP</h2>
+
+<p>You should prepare all the alignment files(<a href="http://samtools.github.io/hts-specs/SAMv1.pdf">BAM/SAM format</a>) before you get start to run this pipeline.</p>
+
+<p>The processes in HGPP:    </p>
+
+<p>1) Find the fosmid region<br>
+2) Markers error correction<br>
+3) Fosmid initial connection<br>
+4) RefHap phasing process<br>
+5) haplotype genome reconstruction<br>
+6) ASE and ASM       </p>
+
+<p>We have provided some cases for how we use HGPP in our project in directory "example"(Will be created when INSTALL HGPP). You can find the detail tutorial information of HGPP in it. </p>
+
+<h2>
+<a id="4-please-cite-the-paper" class="anchor" href="#4-please-cite-the-paper" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. Please cite the paper</h2>
+
+<p>De novo assembly of a haploid-resolved human genome. (Under review)</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
