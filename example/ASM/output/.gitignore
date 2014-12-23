@@ -1,2 +1,5 @@
-!run.sh
-!creat_tDMR_shell.pl
+bam/
+*.cout  
+*.CG 
+*.ext
+final.dmr  
