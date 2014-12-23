@@ -8,8 +8,8 @@ HGPP
 
 __HGPP__( Human Genome haplotype-resolved Program Package ) provides a pipeline for building haplotype resolved human genome by fosmid sequencing 
 
-__Contributors:__ Shujia Huang, Yuhui Sun, Xin Tong and Peng Sun <br/>
-__Institute   :__ BGI-Shenzhen                                   <br/>
+__Contributors:__ [Shujia Huang](https://github.com/ShujiaHuang), Yuhui Sun, Xin Tong and Peng Sun <br/>
+__Institute   :__ BGI-Shenzhen.Inc                               <br/>
 __Last Version:__ 2014-06-18                                     <br/>
 
 This package contains: src, extensions, example and release directories
@@ -45,7 +45,7 @@ The processes in HGPP:
 5) haplotype genome reconstruction       
 6) ASE and ASM       
 
-We have provided some cases for how we use HGPP in our project in directory "example"(Will be created when INSTALL HGPP). You can find the detail tutorial information of HGPP in it. 
+We have provided some cases for how we use HGPP in our project in directory `example`. You can find the detail tutorial information of HGPP in it. 
 
 
 4. Please cite the paper
