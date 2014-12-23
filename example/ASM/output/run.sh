@@ -1,9 +1,9 @@
 # Step 1. Distinguish the reads from alignment result base on the phasing markers. Use the same program in ASE
-mkdir bam
-../../../extensions/ASE/DistinguishReads -i ../input/scaffold1.methy-seq.bam -f ../input/scaffold1.all.hap -r ../input/scaffold1.fa -B -o bam/scaffold1 && samtools sort bam/scaffold1.1.bam bam/scaffold1.1 && samtools sort bam/scaffold1.2.bam bam/scaffold1.2 && samtools sort bam/scaffold1.homo.bam bam/scaffold1.homo && samtools sort bam/scaffold1.ambiguity.bam bam/scaffold1.ambiguity
+#mkdir bam
+#../../../extensions/ASE/DistinguishReads -i ../input/scaffold1.methy-seq.bam -f ../input/scaffold1.all.hap -r ../input/scaffold1.fa -B -o bam/scaffold1 && samtools sort bam/scaffold1.1.bam bam/scaffold1.1 && samtools sort bam/scaffold1.2.bam bam/scaffold1.2 && samtools sort bam/scaffold1.homo.bam bam/scaffold1.homo && samtools sort bam/scaffold1.ambiguity.bam bam/scaffold1.ambiguity
 
 # Step 2. Created methylation cout files for the two haplotypes
-samtools_path=/ifs1/ST_EPI/USER/huangshujia/software/samtools/samtools-0.1.19
+samtools_path=~/Bin/software_pip/samtools-0.1.19
 python ../../../extensions/ASM/methratio.py -c scaffold1 -d ../input/scaffold1.fa -s $samtools_path -o scaffold1.1.cout bam/scaffold1.1.bam && echo "** 1.cout done **" 
 python ../../../extensions/ASM/methratio.py -c scaffold1 -d ../input/scaffold1.fa -s $samtools_path -o scaffold1.2.cout bam/scaffold1.2.bam && echo "** 2.cout done **"
 

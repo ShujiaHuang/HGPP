@@ -123,7 +123,7 @@ sub Calc {
 	my @tmp;
 	for my $bamfile ( @bamfile ) {
 
-		open I, "/ifs1/ST_EPI/USER/huangshujia/ifs2/bin/samtools-0.1.9/samtools view -X $bamfile | " or die "Cannot open file : $bamfile\n";
+		open I, "samtools view -X $bamfile | " or die "Cannot open file : $bamfile\n";
 		while ( <I> ) {
 # FC618FNAAXX:7:94:1028:462#0     163     scaffold20      2113244 255     75M     =       2113668 499     GCCTTTT
 			chomp;
