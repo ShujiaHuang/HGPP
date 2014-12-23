@@ -1,1 +1,6 @@
-!creat_shell.sh
+bam.lst   
+fosmid_regions.lst
+step01.find_fosmid.sh
+fosmid_regions/
+fosmid.regions.txt
+step02.merge_fosmid.sh
