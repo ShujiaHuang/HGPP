@@ -1,1 +1,5 @@
-!run.sh
+*.bam.lst
+*.gene.cov
+ASE.gene
+bam/
+
