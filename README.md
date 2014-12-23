@@ -9,7 +9,7 @@ HGPP
 __HGPP__( Human Genome haplotype-resolved Program Package ) provides a pipeline for building haplotype resolved human genome by fosmid sequencing 
 
 __Contributors:__ [Shujia Huang](https://github.com/ShujiaHuang), Yuhui Sun, Xin Tong and Peng Sun <br/>
-__Institute   :__ BGI-Shenzhen.Inc                               <br/>
+__Institute   :__ [BGI-Shenzhen.Inc](http://www.genomics.cn/)    <br/>
 __Last Version:__ 2014-06-18                                     <br/>
 
 This package contains: src, extensions, example and release directories
