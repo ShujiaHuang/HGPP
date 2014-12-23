@@ -1,4 +1,4 @@
-BAMTOOLS_ROOT = ../../src/include/bamtools
+BAMTOOLS_ROOT = $(realpath ../../src/include/bamtools)
 CXXFLAGS+=-Wl,-rpath,$(BAMTOOLS_ROOT)/lib -Wall -O3 -I $(BAMTOOLS_ROOT)/include -L $(BAMTOOLS_ROOT)/lib
 CXXFLAGS+=-I../../src/include/utils
 
