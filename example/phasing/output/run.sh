@@ -27,10 +27,6 @@ java -cp ../../../bin/phasing/SIH.jar mpg.molgen.sih.main.SIH -a Refhap -c 2 -v 
 java -cp ../../../bin/phasing/SIH.jar mpg.molgen.sih.main.SIH -a Refhap -c 2 -v output_format_readRef/read_4.ref.H output_format_readRef/read_4.ref.F output_RefHap/read_4.ref.phase > output_RefHap/read_4.ref.log 
 java -cp ../../../bin/phasing/SIH.jar mpg.molgen.sih.main.SIH -a Refhap -c 2 -v output_format_readRef/read_5.ref.H output_format_readRef/read_5.ref.F output_RefHap/read_5.ref.phase > output_RefHap/read_5.ref.log 
 java -cp ../../../bin/phasing/SIH.jar mpg.molgen.sih.main.SIH -a Refhap -c 2 -v output_format_readRef/read_6.ref.H output_format_readRef/read_6.ref.F output_RefHap/read_6.ref.phase > output_RefHap/read_6.ref.log 
-java -cp ../../../bin/phasing/SIH.jar mpg.molgen.sih.main.SIH -a Refhap -c 2 -v output_format_readRef/read_7.ref.H output_format_readRef/read_7.ref.F output_RefHap/read_7.ref.phase > output_RefHap/read_7.ref.log 
-java -cp ../../../bin/phasing/SIH.jar mpg.molgen.sih.main.SIH -a Refhap -c 2 -v output_format_readRef/read_8.ref.H output_format_readRef/read_8.ref.F output_RefHap/read_8.ref.phase > output_RefHap/read_8.ref.log 
-java -cp ../../../bin/phasing/SIH.jar mpg.molgen.sih.main.SIH -a Refhap -c 2 -v output_format_readRef/read_9.ref.H output_format_readRef/read_9.ref.F output_RefHap/read_9.ref.phase > output_RefHap/read_9.ref.log 
-java -cp ../../../bin/phasing/SIH.jar mpg.molgen.sih.main.SIH -a Refhap -c 2 -v output_format_readRef/read_10.ref.H output_format_readRef/read_10.ref.F output_RefHap/read_10.ref.phase > output_RefHap/read_10.ref.log 
 
 # 4.0 Convert the files' format creat by RefHap
 mkdir output_convert
