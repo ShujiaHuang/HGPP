@@ -1,1 +1,4 @@
-!creat_shell.sh
+fastaDirByHap/  
+RevisedSeq/  
+step01_assemble.sh
+step02_revise.sh
