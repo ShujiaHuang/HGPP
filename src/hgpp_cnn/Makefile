@@ -2,7 +2,7 @@ CXXFLAGS+=-I../include/utils -Wall
 
 bin = ../../bin
 obj = cnn.o utility.o
-ErrCorr: $(obj)
+cnn: $(obj)
 	$(CXX) $(LDFLAGS) -o $(bin)/phasing/cnn $(obj)
 
 utility.o: ../include/utils/utility.cpp
