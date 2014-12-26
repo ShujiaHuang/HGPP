@@ -12,7 +12,7 @@ __Contributors:__ [Shujia Huang](https://github.com/ShujiaHuang), Yuhui Sun, Xin
 __Institute   :__ [BGI-Shenzhen.Inc](http://www.genomics.cn/)    <br/>
 __Last Version:__ 2014-06-18                                     <br/>
 
-This package contains: src, extensions, example and release directories
+This package contains: `src`, `extensions`, `example` and `img` directories
 
 For `src`: source code for HGPP     
 For `img`: Pipeline plot figure    
@@ -23,10 +23,18 @@ For `example`: Provide some examples for the main processes of HGPP
 2. Install the software
 -----------------------
 
-This package is quit easy to install in your directory, just use:
+This package is quit easy to install in your directory, 
+
+firstly, you can download this package by :
 
 ```
-make
+$ git clone git@github.com:ShujiaHuang/HGPP.git ./
+```
+
+then go into the package directory `HGPP` and use:
+
+```
+$ make
 ```
 
 Then all the required programs will all be compiled and installed automatically. You can find the main part executable programs in `bin` and find the programs for ASE/ASM analysis in `extensions`, respectively 
@@ -45,7 +53,7 @@ The processes in HGPP:
 5) haplotype genome reconstruction       
 6) ASE and ASM       
 
-We have provided some cases for how we use HGPP in our project in directory `example`. You can find the detail tutorial information of HGPP in it. 
+We have provided some cases for how we use HGPP in our project in directory `example`. You could find the detail tutorial information of HGPP in it. 
 
 
 4. Please cite the paper
