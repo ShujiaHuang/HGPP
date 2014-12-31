@@ -41,10 +41,10 @@
 <p><strong>HGPP</strong>( Human Genome haplotype-resolved Program Package ) provides a pipeline for building haplotype resolved human genome by fosmid sequencing </p>
 
 <p><strong>Contributors:</strong> <a href="https://github.com/ShujiaHuang">Shujia Huang</a>, Yuhui Sun, Xin Tong and Peng Sun <br>
-<strong>Institute   :</strong> <a href="http://www.genomics.cn/">BGI-Shenzhen.Inc</a>    <br>
+<strong>Institute   :</strong> <a href="http://www.genomics.cn/">BGI-Shenzhen,Inc</a>    <br>
 <strong>Last Version:</strong> 2014-06-18                                     <br></p>
 
-<p>This package contains: src, extensions, example and release directories</p>
+<p>This package contains: <code>src</code>, <code>extensions</code>, <code>example</code> and <code>img</code> directories</p>
 
 <p>For <code>src</code>: source code for HGPP<br>
 For <code>img</code>: Pipeline plot figure<br>
@@ -54,9 +54,16 @@ For <code>example</code>: Provide some examples for the main processes of HGPP  
 <h2>
 <a id="2-install-the-software" class="anchor" href="#2-install-the-software" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Install the software</h2>
 
-<p>This package is quit easy to install in your directory, just use:</p>
+<p>This package is quit easy to install in your directory, </p>
 
-<pre><code>make
+<p>firstly, you can download this package by :</p>
+
+<pre><code>$ git clone git@github.com:ShujiaHuang/HGPP.git ./
+</code></pre>
+
+<p>then go into the package directory <code>HGPP</code> and use:</p>
+
+<pre><code>$ make
 </code></pre>
 
 <p>Then all the required programs will all be compiled and installed automatically. You can find the main part executable programs in <code>bin</code> and find the programs for ASE/ASM analysis in <code>extensions</code>, respectively </p>
@@ -75,7 +82,7 @@ For <code>example</code>: Provide some examples for the main processes of HGPP  
 5) haplotype genome reconstruction<br>
 6) ASE and ASM       </p>
 
-<p>We have provided some cases for how we use HGPP in our project in directory <code>example</code>. You can find the detail tutorial information of HGPP in it. </p>
+<p>We have provided some cases for how we use HGPP in our project in directory <code>example</code>. You could find the detail tutorial information of HGPP in it. </p>
 
 <h2>
 <a id="4-please-cite-the-paper" class="anchor" href="#4-please-cite-the-paper" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. Please cite the paper</h2>
