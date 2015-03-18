@@ -4,7 +4,7 @@ HGPP
 1. Overview
 -----------
 
-![pipeline plot](/img/pipeline.png)
+![pipeline plot](/img/pipeline2.png)
 
 __HGPP__( Human Genome haplotype-resolved Program Package ) provides a pipeline for building haplotype resolved human genome by fosmid sequencing 
 
@@ -59,7 +59,7 @@ We have provided some cases for how we use HGPP in our project in directory `exa
 4. Please cite the paper
 -----------------------
 
-De novo assembly of a haploid-resolved human genome. (Under review)
+De novo assembly of a haploid-resolved human genome. (Accepted by NBT)
 
 
 
