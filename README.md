@@ -4,7 +4,7 @@ HGPP
 1. Overview
 -----------
 
-![pipeline plot](/img/pipeline2.png)
+[![pipeline plot](https://github.com/ShujiaHuang/HGPP/blob/master/img/pipeline2.png)](https://github.com/ShujiaHuang/HGPP/blob/master/img/pipeline2.png)
 
 __HGPP__( Human Genome haplotype-resolved Program Package ) provides a pipeline for building haplotype resolved human genome by fosmid sequencing 
 
