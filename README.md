@@ -59,7 +59,7 @@ We have provided some cases for how we use HGPP in our project in directory `exa
 4. Please cite the paper
 -----------------------
 
-De novo assembly of a haploid-resolved human genome. (Accepted by NBT)
+[De novo assembly of a haplotype-resolved human genome. Nat. Biotechnol. (2015). doi:10.1038/nbt.3200](http://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3200.html)
 
 
 
